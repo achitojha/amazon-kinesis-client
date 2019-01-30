@@ -20,7 +20,7 @@ import java.util.Date;
  * Class that houses the entities needed to specify the position in the stream from where a new application should
  * start.
  */
-class InitialPositionInStreamExtended {
+public class InitialPositionInStreamExtended {
 
     private final InitialPositionInStream position;
     private final Date timestamp;
@@ -44,7 +44,7 @@ class InitialPositionInStreamExtended {
      *
      * @return The initial position in stream.
      */
-    protected InitialPositionInStream getInitialPositionInStream() {
+    public InitialPositionInStream getInitialPositionInStream() {
         return this.position;
     }
 
